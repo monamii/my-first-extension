@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 200px;
+    height: 200px;
+}
+
+.message {
+    grid-row: 1/2;
+}
+
+.search-box {
+    grid-row: 2/3;
+}
+
+.buttonSection {
+    grid-row: 3/4;
+}

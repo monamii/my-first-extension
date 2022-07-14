@@ -1,0 +1,1 @@
+(()=>{"use strict";document.getElementById("searchButton").addEventListener("click",(function(){const e=document.getElementById("rallyId");console.log(e),console.log(null==e?void 0:e.value),chrome.tabs.create({url:`https://rally1.rallydev.com/#/51484715613d/search?keywords=${null==e?void 0:e.value}`})}))})();
