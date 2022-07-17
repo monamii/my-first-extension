@@ -1,0 +1,6 @@
+<span [style.color]="color" [cpToggle]="true" [cpDialogDisplay]="'inline'" [cpPositionRelativeToArrow]="true"
+  [(colorPicker)]="color" [cpOKButtonText]="'Apply'" [cpOKButton]="true" (colorPickerSelect)="colorize()"
+  (colorPickerChange)="updateColor($event)">
+</span>
+
+<router-outlet></router-outlet>
